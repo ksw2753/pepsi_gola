@@ -11,8 +11,19 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.my-30 {
+margin-top: 30px;
+    margin-bottom: 30px;
+}
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .text-center {
     text-align: center;
+}
+.text-upper {
+    text-transform: uppercase;
 }
 /*==========================1. 스타일 초기화==============================*/
 *{
@@ -31,6 +42,7 @@
 .nav {
     height: 60px;
     line-height: 60px; /*행-높이(=행간): 높이와 같게하면, 수직 중앙에 배치*/
+    font-size: 14px;
 }
 /*
     :link - link로 지정된 텍스트
@@ -44,13 +56,23 @@ a:link, a:visited {
     color: white;
     text-decoration: none;
 }
-
 a:hover { /*가상요소선택자(마우스가 올라오면), hand+over */
    color: #fcff00; 
    text-decoration: none; /* 텍스트-꾸밈:안함 */
 }
-
 .cf {
     width: 800px;
     height: 500px;
+}
+.movie-title{
+    font-size: 22px;
+}
+.movie-text {
+    font-size: 16px;
+    color: #555555
+}
+.movie-poster {
+    width: 600px;
+    height: 300px;
+    font-size: 0; /*안하면 사진 두개가 안붙고 상하로 두줄로 표현*/
 }
