@@ -3,9 +3,21 @@
 .mx-auto{ /* margin + x-axis + auto */
     margin: 0 auto; /*가운데로 가는 태그(상하 0, 좌우 auto), 사이즈 먼저 정해줘야함*/
 }
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .mx-10 {
     margin-left: 10px;
     margin-right: 10px;
+}
+.mx-5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.my-60{
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .my-50{ /*로고를 위아래로 50픽셀씩 간격 줌 */
     margin-top: 50px;
@@ -75,4 +87,10 @@ a:hover { /*가상요소선택자(마우스가 올라오면), hand+over */
     width: 600px;
     height: 300px;
     font-size: 0; /*안하면 사진 두개가 안붙고 상하로 두줄로 표현*/
+}
+.sns {
+    font-size: 0;
+}
+.bg-sns {
+    background-color: #f3f3f3;
 }
