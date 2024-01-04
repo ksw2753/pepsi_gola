@@ -94,3 +94,29 @@ a:hover { /*가상요소선택자(마우스가 올라오면), hand+over */
 .bg-sns {
     background-color: #f3f3f3;
 }
+/*======================================footer========================*/
+.cs-title {
+    font-size: 15px;
+    color: #005891;
+}
+.cs-number {
+    font-size: 30px;
+    font-weight: bold;
+}
+.cs-number a {  /*하위 선택자 (=후손 선택자 cs-number의 a를 지목)*/
+    color: #005891;
+}
+.address-k {
+    font-size: 13px;
+}
+.address-e {
+    font-size: 11px;
+}
+.brand {
+    font-style: italic;
+}
+.divider {
+    border: 0; /*테두리(경계선)색상*/
+    height: 1px;
+    background-color: #005891;
+}
