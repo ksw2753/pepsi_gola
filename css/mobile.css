@@ -7,6 +7,15 @@
     .cf img {
         width: 100%;
     } 
-  
-        
+    .movie-poster {
+        width: 100vw;
+        height: 200px;
     }
+    .movie-poster img {
+        width: 200px;
+    }
+    #footer {
+        margin-bottom: 50px;
+    }
+    }    
+    
